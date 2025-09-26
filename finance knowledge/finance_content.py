@@ -607,124 +607,124 @@ ETFS = [
         'provider': '景顺长城',
     },
     {
-        'name': '????ETF',
+        'name': '易方达沪深300ETF',
         'ticker': '510900',
-        'asset_class': '????',
+        'asset_class': '宽基指数',
         'expense_ratio': '0.50%',
         'ytd_return': '6.1%',
         'one_year_return': '11.7%',
-        'size': '340??',
-        'provider': '????',
+        'size': '340亿元',
+        'provider': '易方达基金',
     },
     {
-        'name': '??????ETF',
+        'name': '广发中证军工ETF',
         'ticker': '512690',
-        'asset_class': '????',
+        'asset_class': '行业主题',
         'expense_ratio': '0.60%',
         'ytd_return': '9.8%',
         'one_year_return': '14.6%',
-        'size': '210??',
-        'provider': '????',
+        'size': '210亿元',
+        'provider': '广发基金',
     },
     {
-        'name': '?????ETF',
+        'name': '华夏创业板50ETF',
         'ticker': '159949',
-        'asset_class': '????',
+        'asset_class': '成长风格',
         'expense_ratio': '0.60%',
         'ytd_return': '7.4%',
         'one_year_return': '12.3%',
-        'size': '132??',
-        'provider': '????',
+        'size': '132亿元',
+        'provider': '华夏基金',
     },
     {
-        'name': '????????ETF',
+        'name': '易方达中证新能源车ETF',
         'ticker': '515880',
-        'asset_class': '????',
+        'asset_class': '新能源主题',
         'expense_ratio': '0.60%',
         'ytd_return': '11.1%',
         'one_year_return': '17.2%',
-        'size': '168??',
-        'provider': '????',
+        'size': '168亿元',
+        'provider': '易方达基金',
     },
     {
-        'name': '???????ETF',
+        'name': '南方中证光伏产业ETF',
         'ticker': '516770',
-        'asset_class': '????',
+        'asset_class': '清洁能源',
         'expense_ratio': '0.68%',
         'ytd_return': '5.6%',
         'one_year_return': '10.8%',
-        'size': '96??',
-        'provider': '????',
+        'size': '96亿元',
+        'provider': '南方基金',
     },
     {
-        'name': '????ETF',
+        'name': '华夏恒生ETF',
         'ticker': '159920',
-        'asset_class': '????',
+        'asset_class': '海外市场',
         'expense_ratio': '0.60%',
         'ytd_return': '12.2%',
         'one_year_return': '19.5%',
-        'size': '280??',
-        'provider': '????',
+        'size': '280亿元',
+        'provider': '华夏基金',
     },
     {
-        'name': '??????ETF',
+        'name': '嘉实中证央企创新驱动ETF',
         'ticker': '512070',
-        'asset_class': '????',
+        'asset_class': '策略风格',
         'expense_ratio': '0.60%',
         'ytd_return': '6.9%',
         'one_year_return': '11.4%',
-        'size': '145??',
-        'provider': '????',
+        'size': '145亿元',
+        'provider': '嘉实基金',
     },
     {
-        'name': '????????ETF',
+        'name': '广发中证芯片ETF',
         'ticker': '512960',
-        'asset_class': '????',
+        'asset_class': '科技创新',
         'expense_ratio': '0.60%',
         'ytd_return': '4.2%',
         'one_year_return': '8.5%',
-        'size': '172??',
-        'provider': '????',
+        'size': '172亿元',
+        'provider': '广发基金',
     },
     {
-        'name': '??????100ETF',
+        'name': '博时标普500ETF',
         'ticker': '513500',
-        'asset_class': '????',
+        'asset_class': '海外市场',
         'expense_ratio': '0.99%',
         'ytd_return': '21.4%',
         'one_year_return': '27.3%',
-        'size': '160??',
-        'provider': '????',
+        'size': '160亿元',
+        'provider': '博时基金',
     },
     {
-        'name': '????500ETF',
+        'name': '国泰纳斯达克100ETF',
         'ticker': '513600',
-        'asset_class': '????',
+        'asset_class': '海外市场',
         'expense_ratio': '0.99%',
         'ytd_return': '17.8%',
         'one_year_return': '23.6%',
-        'size': '118??',
-        'provider': '????',
+        'size': '118亿元',
+        'provider': '国泰基金',
     },
     {
-        'name': '????300??ETF',
+        'name': '华夏中证计算机ETF',
         'ticker': '159967',
-        'asset_class': '????',
+        'asset_class': '科技创新',
         'expense_ratio': '0.60%',
         'ytd_return': '6.8%',
         'one_year_return': '11.9%',
-        'size': '102??',
-        'provider': '????',
+        'size': '102亿元',
+        'provider': '华夏基金',
     },
     {
-        'name': '????????ETF',
+        'name': '易方达中概互联ETF',
         'ticker': '513050',
-        'asset_class': '????',
+        'asset_class': '海外科技',
         'expense_ratio': '0.99%',
         'ytd_return': '15.6%',
         'one_year_return': '22.0%',
-        'size': '154??',
-        'provider': '?????',
+        'size': '154亿元',
+        'provider': '易方达基金',
     },
     
 ]
@@ -757,6 +757,7 @@ ETF_CARDS = [
         'asset_filters': ['海外科技', '海外市场', '商品资产'],
     },
 ]
+
 TEMPLATE = """<!DOCTYPE html>
 <html lang=\"zh-CN\">
 <head>
@@ -2014,7 +2015,7 @@ TEMPLATE = """<!DOCTYPE html>
             {% endif %}
         </div>
         <div class='detail-hero-meta'>
-            <a class='cta secondary' href='/#etfs'>?? ETF ??<span class='en'>Back to overview</span></a>
+            <a class='cta secondary' href='/#etfs'>返回 ETF 导航<span class='en'>Back to overview</span></a>
         </div>
     </section>
 
@@ -2022,12 +2023,12 @@ TEMPLATE = """<!DOCTYPE html>
         <div class='etf-detail-layout'>
             <aside class='etf-detail-sidebar'>
                 <div class='sidebar-header'>
-                    <h2>????<span class='en'>Fund Lineup</span></h2>
-                    <input type='search' id='detailEtfSearch' placeholder='????????? / Filter by name or ticker'>
+                    <h2>基金列表<span class='en'>Fund Lineup</span></h2>
+                    <input type='search' id='detailEtfSearch' placeholder='输入基金名称或代码 / Filter by name or ticker'>
                 </div>
                 <ul class='detail-etf-list' id='detailEtfList'></ul>
                 <div class='sidebar-note'>
-                    ?????????????????<span class='en'>Window: latest ~35 trading days.</span>
+                    数据范围：最近约 35 个交易日<span class='en'>Window: latest ~35 trading days.</span>
                 </div>
             </aside>
             <div class='etf-detail-main'>
@@ -2036,7 +2037,7 @@ TEMPLATE = """<!DOCTYPE html>
                     <h2 id='detailEtfTitle'>{{ matched_etfs[0].name }}<span class='en'>{{ matched_etfs[0].ticker }}</span></h2>
                     <p id='detailEtfSubtitle'>{{ matched_etfs[0].asset_class }}</p>
                     {% else %}
-                    <h2 id='detailEtfTitle'>????</h2>
+                    <h2 id='detailEtfTitle'>尚未选择基金</h2>
                     <p id='detailEtfSubtitle'></p>
                     {% endif %}
                 </div>
@@ -2050,22 +2051,22 @@ TEMPLATE = """<!DOCTYPE html>
 
     <section class='detail-table-section'>
         <div class='detail-table-inner'>
-            <h2>ETF ????<span class='en'>Snapshot Metrics</span></h2>
+            <h2>ETF 关键指标<span class='en'>Snapshot Metrics</span></h2>
             <table class='etf-table'>
                 <thead>
                     <tr>
-                        <th>?? / ??<span class='en'>Fund / Ticker</span></th>
-                        <th>??<span class='en'>Category</span></th>
-                        <th>???<span class='en'>Provider</span></th>
-                        <th>??<span class='en'>AUM</span></th>
-                        <th>??<span class='en'>Expense</span></th>
-                        <th>????<span class='en'>YTD</span></th>
-                        <th>???<span class='en'>1Y</span></th>
+                        <th>基金 / 代码<span class='en'>Fund / Ticker</span></th>
+                        <th>类别<span class='en'>Category</span></th>
+                        <th>管理人<span class='en'>Provider</span></th>
+                        <th>规模<span class='en'>AUM</span></th>
+                        <th>费率<span class='en'>Expense</span></th>
+                        <th>今年以来<span class='en'>YTD</span></th>
+                        <th>近一年<span class='en'>1Y</span></th>
                     </tr>
                 </thead>
                 <tbody id='detailEtfTable'>
                     {% if not matched_etfs %}
-                    <tr><td colspan='7'>??????</td></tr>
+                    <tr><td colspan='7'>暂无可显示的数据</td></tr>
                     {% endif %}
                 </tbody>
             </table>
@@ -2074,19 +2075,19 @@ TEMPLATE = """<!DOCTYPE html>
 
     <section class='related-section'>
         <div class='related-inner'>
-            <h2>?? yjc ??<span class='en'>More from yjc</span></h2>
+            <h2>更多 yjc 内容<span class='en'>More from yjc</span></h2>
             <div class='related-grid'>
                 <a class='related-card' href='/#cards'>
-                    <h3>??????<span class='en'>Knowledge Cards</span></h3>
-                    <p>??????????????????</p>
+                    <h3>知识卡片推荐<span class='en'>Knowledge Cards</span></h3>
+                    <p>浏览更多投资与理财知识卡片，扩展你的金融视野。</p>
                 </a>
                 <a class='related-card' href='/#models'>
-                    <h3>??????<span class='en'>Model Spotlights</span></h3>
-                    <p>??????????????????</p>
+                    <h3>模型亮点<span class='en'>Model Spotlights</span></h3>
+                    <p>深入了解估值、风险与资产配置模型的核心公式与实操要点。</p>
                 </a>
                 <a class='related-card' href='/#etfs'>
-                    <h3>?? ETF ??<span class='en'>Back to ETF Discovery</span></h3>
-                    <p>??????????????</p>
+                    <h3>返回 ETF 导航<span class='en'>Back to ETF Discovery</span></h3>
+                    <p>回到 ETF 专区，筛选不同风格与市场的基金机会。</p>
                 </a>
             </div>
         </div>
@@ -2095,7 +2096,7 @@ TEMPLATE = """<!DOCTYPE html>
 
     <footer id='footer'>
         <div class='footer-content'>
-            <span>? 2025 yjc · 以知识赋能投资者 / Empowering investors through knowledge.</span>
+            <span>© 2025 yjc · 以知识赋能投资者 / Empowering investors through knowledge.</span>
             <ul>
                 <li><a href='#'>使用条款<span class='en'>Terms</span></a></li>
                 <li><a href='#'>隐私政策<span class='en'>Privacy</span></a></li>
